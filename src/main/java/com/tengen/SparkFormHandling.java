@@ -23,7 +23,7 @@ public class SparkFormHandling {
 				Map<String, Object> fruitsMap = new HashMap<String, Object>();
 				fruitsMap.put("fruits", Arrays.asList("apple", "orange", "banana", "peach"));
 				
-				Template fruitPickerTemplate = configuration.getTemplate("FruitPicker.ftl");
+				Template fruitPickerTemplate = configuration.getTemplate("fruitPicker.ftl");
 				
 				fruitPickerTemplate.process(fruitsMap, writer);				
 				
